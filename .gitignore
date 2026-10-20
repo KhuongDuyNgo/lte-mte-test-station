@@ -1,0 +1,21 @@
+## Build results
+bin/
+obj/
+publish/
+[Dd]ebug/
+[Rr]elease/
+Logs/
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## OS Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
