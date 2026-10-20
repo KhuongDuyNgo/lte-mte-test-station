@@ -1,4 +1,4 @@
-# ⚡ LTE Device Automated Test Station (MTE-01)
+# LTE Device Automated Test Station (MTE-01)
 > **Dự án Trạm Kiểm thử Tự động Thiết bị Mạng & LTE dành cho Kỹ sư MTE (Manufacturing Test Engineer)**
 
 ---
@@ -72,10 +72,3 @@ Nhấn vào nút **`📊 Weekly Review`** trên thanh tiêu đề để mở mà
 * **Dashboard chỉ số:** Tổng sản phẩm đã test, số lượng PASS, số lượng FAIL, Tỷ lệ Đạt (Yield Rate %), Thời gian test trung bình (Average Cycle Time).
 * **Biểu đồ lỗi Pareto (Top Failure Pareto):** Thống kê bước nào trên dây chuyền hay bị lỗi nhất (ví dụ: `RF_SIGNAL_CSQ` lỗi sóng RF hay `CHECK_SIM` lỏng thẻ SIM).
 * **Nút `📥 Export Weekly CSV`:** Xuất báo cáo ra định dạng CSV để gửi cho Quản lý xưởng hoặc đính kèm email báo cáo tuần.
-
----
-
-## 🎤 7. Mẹo Trả lời Phỏng vấn khi nói về Dự án này
-
-Khi nhà tuyển dụng hỏi: *"Bạn đã từng làm gì với C# và kiểm thử thiết bị?"*, bạn có thể tự tin chia sẻ:
-> *"Em đã phát triển một trạm kiểm thử tự động (Automated Test Station) bằng C# WinForms cho thiết bị Router 4G/LTE. Phần mềm giao tiếp với thiết bị qua Serial Port / AT Command và Socket TCP để kiểm tra các chỉ số như IMEI, nhận diện SIM, công suất sóng RF RSSI và tốc độ truyền gói tin. Kết quả kiểm thử được đồng bộ trực tiếp vào Microsoft SQL Server để tính toán First Pass Yield (FPY) và vẽ biểu đồ Pareto phân tích lỗi phục vụ cuộc họp Weekly Review của phòng MTE."*
